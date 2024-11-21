@@ -4,7 +4,7 @@ import contact from '../assets/Contact.avif';
 
 function Contact() {
   return (
-    <div className="mx-8 bg-custom-sky rounded-2xl p-2">
+    <div className="mx-8 bg-sky-50 rounded-2xl p-2">
       <div className="flex flex-col md:flex-row justify-center p-8 px-16 gap-10 md:gap-36">
         {/* Booking Information */}
         <div className=" flex flex-col gap-3" > 
@@ -19,7 +19,7 @@ function Contact() {
 
         {/* Globe Icon */}
         <div className="flex flex-col ">
-            <img src={globe} alt="Globe Icon" className="rounded-full h-16 w-16 "  />
+            <img src={globe} alt="Globe Icon" className="rounded-full h-16 w-16 " />
           <h2 className='font-bold p-1 mt-2 md:text-2xl'>Visit us on</h2>
           <p className='p-1 text-base md:text-lg' >Street-2, opp Cary, NC</p>
           <a href="maps.google.com" className='text-blue-500  '>Open Google Maps </a>
